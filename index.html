@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>استمع للقرآن الكريم</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>📖 استمع للقرآن الكريم</h1>
+    <p>بصوت الشيخ محمد صديق المنشاوي</p>
+  </header>
+
+  <main class="container">
+    <label for="surah">اختر السورة:</label>
+    <select id="surah"></select>
+
+    <button onclick="playSurah()">▶️ استمع الآن</button>
+
+    <audio id="player" controls></audio>
+  </main>
+
+  <footer>
+    تم التطوير بمحبة ❤️ لتيسير الاستماع إلى كتاب الله تعالى
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
